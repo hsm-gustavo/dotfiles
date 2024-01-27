@@ -8,7 +8,10 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	sh $HOME/.config/rofi/bin/launcher
+
+super + {r,p}
+	sh $HOME/.config/rofi/bin/{runner,powermenu}
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -128,7 +131,12 @@ super + d
 super + q
 	nautilus
 
-# spotify
-super + s
-	spotify
+# discord
+super + a
+	discord
 
+# move focused to other monitor
+super + shift + {Left,Down,Up,Right}
+	dir={west,south,north,east}; \
+	bspc node -s "$dir.local" --follow \
+	    || bspc node -m "$dir" --follow
