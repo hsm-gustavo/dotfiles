@@ -65,7 +65,7 @@ SPACESHIP_CHAR_SUFFIX=" "
 ```
 
 ### Credits
-Pretty much every color scheme is from [catppuccin](https://github.com/catppuccin). Polybar design is from [ericmurphyxyz](https://github.com/ericmurphyxyz/dotfiles), modified for my needs. Rofi theme is from [catppuccin](https://github.com/catppuccin/rofi/tree/main/deathemonic) too, modified to combine with the polybar theme and because some icons are broken. The wallpaper is from [here](https://www.reddit.com/r/wallpaper/comments/crmlwi/you_look_lonely_1920_x_1080/). For the picom config, I used (Spaxly's config)[https://github.com/Spaxly/dotfiles/tree/main].
+Pretty much every color scheme is from [catppuccin](https://github.com/catppuccin). Polybar design is from [ericmurphyxyz](https://github.com/ericmurphyxyz/dotfiles), modified for my needs. Rofi theme is from [catppuccin](https://github.com/catppuccin/rofi/tree/main/deathemonic) too, modified to combine with the polybar theme and because some icons are broken. The wallpaper is from [here](https://www.reddit.com/r/wallpaper/comments/crmlwi/you_look_lonely_1920_x_1080/). For the picom config, I used [Spaxly's config](https://github.com/Spaxly/dotfiles/tree/main).
 
 ### Warning
 These are my personal dotfiles. It is strongly advised not to use them unless you understand their functionalities. Additionally, it is not recommended to use them if you lack the knowledge to troubleshoot potential issues. I cannot be held responsible for any damage they may cause to your system.
