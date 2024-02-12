@@ -1,5 +1,9 @@
 # dotfiles
 
+
+https://github.com/hsm-gustavo/dotfiles/assets/111820051/7ceb1e2a-1569-42b0-83e4-9a8bd59d1653
+
+
 ## Install
 ```
 $ yay -S xorg xorg-xinit alacritty bspwm sxhkd nitrogen rofi numlockx dunst polybar betterlockscreen neovim zsh
