@@ -55,9 +55,6 @@ decorations_theme_variant = "None"  # Default: "None"
 # Resize increments
 resize_increments = false  # Default: false
 
-# Option as Alt (macOS only)
-option_as_alt = "None"  # Default: "None"
-
 ########
 # FONT #
 ########

@@ -135,8 +135,16 @@ super + q
 super + a
 	discord
 
-# move focused to other monitor
+# swap focused
 super + shift + {Left,Down,Up,Right}
 	dir={west,south,north,east}; \
 	bspc node -s "$dir.local" --follow \
 	    || bspc node -m "$dir" --follow
+
+# open screenshot
+super + Print
+	gnome-screenshot -i
+
+# toggle floating
+super + v
+	bspc node focused -t \~floating
