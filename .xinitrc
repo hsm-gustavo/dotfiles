@@ -50,6 +50,7 @@ fi
 
 setxkbmap -model pc105 -layout br -variant abnt2 &
 numlockx &
+xset s off -dpms
 picom -fb &
 nitrogen --restore &
 xsetroot -cursor_name left-ptr
